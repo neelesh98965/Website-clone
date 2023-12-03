@@ -1,3 +1,6 @@
+import image2 from "../Images/2.png"
+import image3 from "../Images/3.png"
+
 const Third = () => {
   return (
     <>
@@ -21,7 +24,7 @@ const Third = () => {
         </div>
       </div>
 
-      <div className=' pt-[15%]'><img src="/images/3.png"/></div>
+      <div className=' pt-[15%]'><img src={image3}/></div>
 
       <div className='flex justify-center text-white pt-0'>
         <div className='flex flex-col mr-[50px] w-70 h-50 items-center text-white text-center rounded-3xl p-5'>
@@ -30,7 +33,7 @@ const Third = () => {
         </div> 
       </div>
 
-      <div><img src="/images/2.png" alt=""/></div>
+      <div><img src={image2} alt=""/></div>
     </div>
   </>
   )
